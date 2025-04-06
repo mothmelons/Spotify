@@ -1,0 +1,544 @@
+body {
+    background-color: black;
+    font-family:  "Kanit", sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+.back{
+    z-index: 5;
+    display: block;
+    position:fixed;
+    width: 1760px;
+    margin-top: -10px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding-top:110px ;
+    background-color: rgba(0, 0, 0, 0.512);
+}
+
+.logo{
+    z-index: 5;
+    display: block;
+    position:fixed;
+    margin-left: 100px;
+    top: 25px;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    display: block;
+    position: fixed;
+    top: 28px;
+    transition: 0.3s;
+}
+
+.spotify_text {
+    z-index: 5;
+    color: rgb(59, 218, 88);
+    display: block;
+    position:fixed;
+    top:20px;
+    left: 150px;
+    font-size: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.register {
+    z-index: 6;
+    display: block;
+    position:fixed;
+    right: 145px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    margin-right: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-right: 3px solid rgb(226, 226, 226);
+    border-bottom: 3px solid rgb(226, 226, 226);
+    transition: 0.5s;
+}
+
+.register:hover {
+    display: block;
+    position: fixed;
+    right: 143px;
+    top: 28px;
+    background-color: rgb(226, 226, 226);
+    transition: 0.4s;
+}
+
+.switch-theme-button {
+    z-index: 6;
+    display: block;
+    position:fixed;
+    right: 15px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-right: 3px solid rgb(226, 226, 226);
+    border-bottom: 3px solid rgb(226, 226, 226);
+    transition: 0.5s;
+}
+.switch-theme-button:hover {
+    display: block;
+    position: fixed;
+    right: 13px;
+    top: 28px;
+    background-color: rgb(226, 226, 226);
+    transition: 0.4s;
+}
+
+
+.fon-1{
+    z-index: 2;
+    display: block;
+    position:absolute;
+    width: 1760px;
+    margin-top: 20px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding-top:80px ;
+}
+
+.text-1{
+    z-index: 3;
+    position: absolute;
+    height: 143px;
+    top: 350px;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.advantages{
+    z-index: 4;
+    font-size: 40px;
+    color: #FFFFFF;
+    top:1100px;
+    display: flex;
+    left: 40% ;
+    right: 30%;
+    position:absolute;
+}
+
+
+.advantages-fon{
+    z-index: 2;
+    display: block;
+    position:absolute;
+    width: 1760px;
+    margin-top: 1200px;
+    margin-left: -50px;
+    margin-right: -9px;
+    padding-top:80px ;
+}
+
+.advantages-text-fon{
+    background-color: rgba(0, 0, 0, 0.775);
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 800px;
+    z-index: 4;
+    top: 1450px;
+    left: 100px;
+    border-radius: 25px;  
+}
+
+.advantages-text-1{
+    color: rgb(59, 218, 88);
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 900px;
+    z-index: 4;
+    top: 1500px;
+    left: 220px;
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+.advantages-text-2{
+    color: rgb(59, 218, 88);
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 900px;
+    z-index: 4;
+    top: 1500px;
+    left:970px;
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+.advantages-text-3{
+    color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 900px;
+    z-index: 4;
+    top: 1660px;
+    left:250px;
+    border-radius: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.advantages-text-4{
+    color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 900px;
+    z-index: 4;
+    top: 1660px;
+    left:980px;
+    border-radius: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fon-2{
+    z-index: 2;
+    display: block;
+    position:absolute;
+    width: 1760px;
+    margin-top: 2500px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding-top:80px ;
+}
+
+.fon-1-text{
+    color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    width: 70%;
+    z-index: 4;
+    top: 2800px;
+    left:300px;
+    font-size: 40px;
+    text-align: center;
+    backdrop-filter: blur(1px);
+}
+
+.buttom-1{
+    z-index: 4;
+    top: 3100px;
+    left: 35%;
+    display: block;
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.912);
+    border-radius: 15px;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.buttom-1:hover{
+    top: 3106px;
+    left: 36%;
+    text-align: center;
+    background: rgba(222, 222, 222, 0.912);
+    transition: 1s;
+}
+
+.store{
+    position: absolute;
+    display: block;
+    top: 3700px;
+    text-align: center;
+    z-index: 4;
+    color: #FFFFFF;
+    left:40%;
+    font-size: 40px;
+    height: 80px;    
+    border-radius: 25px;
+    background: rgba(27, 26, 26, 0.94);
+    width: 300px;
+}
+
+.store-text{
+    margin-top: 10px;
+}
+
+.store-fon{
+    background: rgba(27, 26, 26, 0.82);
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    z-index: 4;
+    top:3850px;
+    left: 100px;
+    border-radius: 15px;
+}
+
+.Spotify-plus{
+    position: absolute;
+    display: block;
+    top: 3900px;
+    left: 200px;
+    text-align: center;
+    z-index: 4;
+    height: 500px;    
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.81);
+    width: 300px;
+}
+
+.Spotify-vip{
+    position: absolute;
+    display: block;
+    top: 3900px;
+    left: 680px;
+    text-align: center;
+    z-index: 4;
+    height: 500px;    
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.81);
+    width: 300px;
+}
+
+.Spotify-premium{
+    position: absolute;
+    display: block;
+    top: 3900px;
+    right: 200px ;
+    text-align: center;
+    z-index: 4;
+    height: 500px;    
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.81);
+    width: 300px;
+}
+
+.Spotify-plus-h4{
+    position: absolute;
+    display: block;
+    top: 3920px;
+    left: 260px;
+    z-index: 4;
+    color: gold;
+    font-size: 30px;
+}
+
+.Spotify-vip-h4{
+    position: absolute;
+    display: block;
+    top: 3920px;
+    left: 750px;
+    z-index: 4;
+    color: gold;
+    font-size: 30px;
+}
+
+
+.Spotify-premium-h4{
+    position: absolute;
+    display: block;
+    top: 3920px;
+    z-index: 4;
+    font-size: 30px;
+    color: gold;
+    right: 230px;
+}
+
+.Spotify-plus-text{
+    position: absolute;
+    display: block;
+    top: 3970px;
+    left: 230px;
+    width: 15%;
+    font-size: 35px;
+    text-align: center;
+    z-index: 4;
+    color: rgb(255, 255, 255);
+
+}
+
+.Spotify-vip-text{
+    position: absolute;
+    display: block;
+    top: 3970px;
+    left: 710px;
+    width: 15%;
+    font-size: 35px;
+    text-align: center;
+    z-index: 4;
+    color: rgb(255, 255, 255);
+
+}
+
+.Spotify-premium-text{
+    position: absolute;
+    display: block;
+    top: 3970px;
+    right: 230px;
+    width: 15%;
+    font-size: 35px;
+    text-align: center;
+    z-index: 4;
+    color: rgb(255, 255, 255);
+
+}
+
+.price-1{
+    color: rgb(0, 135, 0);
+}
+
+.Spotify-plus-buy{
+    position: absolute;
+    display: block;
+    top: 4300px;
+    text-align: center;
+    z-index: 4;
+    color: #000000;
+    font-size: 40px;
+    background:gold;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    left: 240px;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+
+.Spotify-plus-buy:hover{
+    background:rgba(255, 217, 0, 0.37);
+    transition: 1s;
+}
+
+.Spotify-vip-buy:hover{
+    background:rgba(255, 217, 0, 0.37);
+    transition: 1s;
+}
+
+.Spotify-premium-buy:hover{
+    background:rgba(255, 217, 0, 0.37);
+    transition: 1s;
+}
+
+.Spotify-vip-buy{
+    position: absolute;
+    display: block;
+    top: 4300px;
+    text-align: center;
+    z-index: 4;
+    color: #000000;
+    font-size: 40px;
+    background:gold;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    left: 720px;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+
+.Spotify-premium-buy{
+    position: absolute;
+    display: block;
+    top: 4300px;
+    text-align: center;
+    z-index: 4;
+    color: #000000;
+    font-size: 40px;
+    background:gold;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    right: 240px;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+
+.last-text{
+    display: block;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    top: 4700px;
+    font-size: 40px;
+    left: 20%;
+}
+
+.last-buttom{
+    display: block;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+    top: 4850px;
+    font-size: 40px;
+    left: 30%; 
+    background-color: rgb(255, 255, 255);  
+    padding:15px;
+    border-radius: 50px;
+    transition: 0.5s; 
+}
+
+.last-buttom:hover{
+    background-color: rgba(255, 255, 255, 0.803); 
+    transition: 0.5s; 
+}
+
+.last-fon{
+    z-index: 2;
+    display: block;
+    position:absolute;
+    width: 1760px;
+    top:3770px;
+    margin-left: -9px;
+    padding-top:80px ;
+}
+
+.Last{
+    z-index: 5;
+    display: block;
+    position:absolute;
+    width: 1760px;
+    height: 1800px;
+    margin-left: -9px;
+    margin-right: -9px;
+    top:4700px ;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
