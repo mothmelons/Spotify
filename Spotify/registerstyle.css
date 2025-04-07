@@ -124,6 +124,8 @@ body {
     background-color: #28a745;
     top:500px ;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .submit-button:hover {
